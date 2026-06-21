@@ -1,0 +1,40 @@
+.header-list {
+    display: flex;
+    gap: 58px;
+    padding: 0;
+    margin: 0px;
+    list-style: none;
+}
+
+.header {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 58px;
+}
+
+.header-language {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+}
+
+.header-div {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding: 25px 0;
+}
