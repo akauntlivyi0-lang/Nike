@@ -9,7 +9,15 @@ li {
 ul {
     padding: 0px;
 }
- 
+
+.whitecolor {
+    color: white;
+}
+
+.greycolor {
+    color: #D8D8D8;
+}
+
 .nav-active-color {
     color: white;
 }
@@ -58,6 +66,205 @@ ul {
     align-items: center;
 }
 
+.main-first-section {
+    height: 800px;
+    background-image: url(../img/first-bg.png);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-first-section-nikelogo-image {
+    width: 160px;
+    height: 100px;
+}
+
+.main-first-section-h3 {
+    margin: 0px;
+    font-size: 48px;
+}
+
+.main-first-section-h3-and-nikelogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+}
+
+.main-first-section-h1 {
+    font-size: 144px;
+    margin: 0 0 0 0px;
+}
+
+.main-first-section-h2 {
+    font-size: 72px;
+    margin: 0 0 0 0px;
+}
+
+.main-first-section-padding {
+    padding-left: 30px;
+}
+
+.main-first-section-p {
+    width: 450px;
+    font-size: 18px;
+}
+
+.main-first-section-button {
+    margin-left: 30px;
+    background-color: #8E32C6;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+
+.main-second-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    background-image: url(../img/second-bg.png);
+    height: 606px;
+}
+
+.main-second-section-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    height: 396px;
+    width: 1110px;
+    border: 5px;
+    border-color: #8E32C6;
+    border-style: solid;
+    font-size: 36px;
+}
+
+.main-second-section-first-ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-second-section-second-ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-second-section-third-ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-second-section-line {
+    height: 346px;
+    width: 1px;
+    background-color: white;
+}
+
+.main-third-section {
+    background-image: url(../img/third-bg.png);
+    height: 520px;
+}
+
+.main-third-section-h2 {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+}
+
+.main-third-section-first-ul {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 292px;
+    background-image:linear-gradient(125deg, #00E5E6, #00A8F7, #9A76F9, #CC5EC2);
+    border-radius: 15px;
+}
+
+.main-third-section-second-ul {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 292px;
+    background-image:linear-gradient(125deg, #FF68B4, #FF45E1, #CE3AFF, #8961FF);
+    border-radius: 15px;
+}
+
+.main-third-section-third-ul {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 292px;
+    background-image:linear-gradient(125deg, #FFE128, #FF9B5C, #FF8381, #FF5489);
+    border-radius: 15px;
+}
+
+.main-third-section-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 93px;
+}
+
+.main-third-section-first-ul-first-li-p {
+    margin: 0px;
+    padding: 49px 13px 8px 13px;
+    font-size: 24px;
+}
+
+.main-third-section-first-ul-second-li-p {
+    margin: 0px;
+    padding: 0px 13px 0px 13px;
+}
+
+.main-third-section-first-ul-third-li-img {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 13px;
+}
+
+.main-third-section-first-ul-fourth-li-p {
+    margin: 0px;
+    padding: 0px 0px 1px 0px;
+}
+
+.main-third-section-first-ul-five-li-p {
+    margin: 0px;
+    padding: 0px 0px 0px 0x;
+}
+
+.main-third-section-first-ul-fourth-and-fifth-li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main-third-section-first-ul-first-div {
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+
+.main-third-section-first-ul-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.main-third-section-div-for-aligning {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .footer {
     background-color: #021635;
     padding: 0px 40px 0px 40px;
@@ -71,15 +278,11 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.footer-div {
     align-items: center;
 }
 
 .footer-first-div-second-ul {
     text-align: right;
-    
 }
 
 .cent {
